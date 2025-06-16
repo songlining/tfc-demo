@@ -14,9 +14,9 @@ module "vault-agent-auth-role" {
     
   aws_region  = "ap-southeast-2"
   # aws_region  = "ap-southeast-1"
-  # instance_type = "t4g.small"
+  instance_type = "t4g.small"
   # instance_type = "t4g.micro"
-  instance_type = "t4g.medium"
+  # instance_type = "t4g.medium"
 }
 
 # module "vault-agent-auth-role" {
