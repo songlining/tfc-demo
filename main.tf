@@ -17,12 +17,12 @@ terraform {
 module "vault-agent-auth-role" {
   source  = "app.terraform.io/lab-larry/vault-agent-auth-role/aws"
   version = "1.0.9"
-  
+
   aws_region  = "ap-southeast-2"
   # aws_region  = "ap-southeast-1"
-  instance_type = "t4g.small"
+  # instance_type = "t4g.small"
   # instance_type = "t4g.micro"
-  # instance_type = "t4g.medium"
+  instance_type = "t4g.medium"
 }
 
 output "vault_server_private_ip" {
