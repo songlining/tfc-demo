@@ -10,7 +10,7 @@ terraform {
 }
 
 module "vault_aws_auth" {
-  source = "github.com:songlining/terraform-aws-vault-agent-auth-role.git"
+  source = "github.com/songlining/terraform-aws-vault-agent-auth-role.git"
     
   aws_region  = "ap-southeast-2"
   # aws_region  = "ap-southeast-1"
