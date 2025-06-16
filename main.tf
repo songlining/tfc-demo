@@ -16,7 +16,7 @@ terraform {
 
 module "vault-agent-auth-role" {
   source  = "app.terraform.io/lab-larry/vault-agent-auth-role/aws"
-  version = "1.0.7"
+  version = "1.0.8"
 }
 
 output "vault_server_private_ip" {
